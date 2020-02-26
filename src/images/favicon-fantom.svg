@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="48px" viewBox="0 0 37 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>favicon fantom</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="38.1875" width="36.8166667" height="8.8125"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="favicon-fantom" transform="translate(-5.000000, 0.000000)">
+            <g>
+                <rect id="Rectangle" x="0" y="0" width="48" height="48"></rect>
+                <g id="fantom-new-logo-white" transform="translate(6.000000, 1.000000)">
+                    <g id="rounded-copy">
+                        <path d="M19.4749469,0.346540539 L31.1474749,6.50712713 C32.0229335,6.96918118 32.0229335,7.71831882 31.1474749,8.18037287 L19.4749469,14.3409595 C18.5994882,14.8030135 17.1800893,14.8030135 16.3046306,14.3409595 L4.6321026,8.18037287 C3.75664394,7.71831882 3.75664394,6.96918118 4.6321026,6.50712713 L16.3046306,0.346540539 C17.1800893,-0.115513513 18.5994882,-0.115513513 19.4749469,0.346540539 Z" id="Rectangle" stroke="#FFFFFF" stroke-width="2"></path>
+                        <path d="M19.4749469,15.3796288 L31.1474749,21.5402154 C32.0229335,22.0022694 32.0229335,22.7514071 31.1474749,23.2134611 L19.4749469,29.3740477 C18.5994882,29.8361017 17.1800893,29.8361017 16.3046306,29.3740477 L4.6321026,23.2134611 C3.75664394,22.7514071 3.75664394,22.0022694 4.6321026,21.5402154 L16.3046306,15.3796288 C17.1800893,14.9175747 18.5994882,14.9175747 19.4749469,15.3796288 Z" id="Rectangle-Copy" stroke="#FFFFFF" stroke-width="2"></path>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Rectangle"></g>
+                        <path d="M19.4749469,31.1038935 L31.1474749,37.2644801 C32.0229335,37.7265341 32.0229335,38.4756718 31.1474749,38.9377258 L19.4749469,45.0983124 C18.5994882,45.5603665 17.1800893,45.5603665 16.3046306,45.0983124 L4.6321026,38.9377258 C3.75664394,38.4756718 3.75664394,37.7265341 4.6321026,37.2644801 L16.3046306,31.1038935 C17.1800893,30.6418394 18.5994882,30.6418394 19.4749469,31.1038935 Z" id="Rectangle-Copy-2" stroke="#FFFFFF" stroke-width="2" mask="url(#mask-2)"></path>
+                        <path d="M31.2855243,3.28308824 C33.5709616,4.66544118 34.6944749,5.18382353 34.6944749,8.63970588" id="Path-11" stroke="#FFFFFF" stroke-width="2"></path>
+                        <path d="M0.864241002,36.2867647 C3.14967832,37.6691176 4.27319162,38.1875 4.27319162,41.6433824" id="Path-11-Copy" stroke="#FFFFFF" stroke-width="2" transform="translate(2.568716, 38.965074) scale(-1, -1) translate(-2.568716, -38.965074) "></path>
+                        <line x1="3.88908451" y1="37.9283088" x2="3.88908451" y2="7.50507911" id="Line-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></line>
+                        <line x1="31.890493" y1="37.9283088" x2="31.890493" y2="7.50507911" id="Line-2-Copy" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></line>
+                        <line x1="17.8897887" y1="29.2886029" x2="17.8897887" y2="15.1194853" id="Line-2-Copy-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

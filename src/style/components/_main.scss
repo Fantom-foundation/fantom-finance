@@ -1,0 +1,292 @@
+html,
+body {
+  min-height: 500px;
+}
+.home-page {
+  background: $dark;
+  color: #fff;
+  min-height: 100vh;
+}
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+  grid-gap: 50px;
+  @media only screen and (max-width: 480px) {
+    display: block;
+  }
+}
+.second-section .grid {
+  margin-top: 20vh;
+  padding: 70px 0;
+  margin-bottom: 20vh;
+  @media only screen and (max-width: 767px) {
+    margin-top: 120px;
+    padding: 0px 0;
+    margin-bottom: 60px;
+  }
+  @media only screen and (max-width: 480px) {
+    margin-bottom: 30px;
+  }
+}
+.left-column {
+  h4 {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  h2 {
+    span {
+      color: $primary-color;
+      font-size: 31px;
+    }
+  }
+}
+section.first-section {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-image: url("/assets/images/fantom_finance_hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+.right-column {
+  // max-height: 80vh;
+  // overflow: hidden;
+  h2 {
+    margin-bottom: 24px;
+    font-weight: 500;
+    @media only screen and (max-width: 991px) {
+      font-weight: 300;
+      font-size: 37px;
+    }
+    @media only screen and (max-width: 480px) {
+      font-size: 32px;
+    }
+  }
+}
+
+.countdown {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  @media only screen and (max-width: 480px) {
+    display: block;
+    .counter {
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+    span {
+      min-width: 100px;
+    }
+  }
+}
+@media only screen and (min-width: 768px) {
+  .countdown .counter:last-of-type span {
+    min-width: 470px;
+  }
+}
+.countdown .counter span {
+  display: block;
+  font-size: 48px;
+  @media only screen and (max-width: 767px) {
+    font-size: 32px;
+  }
+  font-weight: bold;
+  font-family: Montserrat;
+  color: $primary-color;
+}
+
+.third-section,
+.fourth-section {
+  padding-top: 20vh;
+  @media only screen and (max-width: 480px) {
+    padding-top: 15vh;
+  }
+}
+
+.heighlited-heading {
+  margin-bottom: 64px;
+  // margin-bottom: 30vh
+  @media only screen and (max-width: 480px) {
+    margin-bottom: 55px;
+  }
+}
+
+.fifth-section {
+  h2 {
+    font-size: $h1;
+    font-weight: normal;
+    margin-bottom: 0;
+    @media only screen and (max-width: 991px) {
+      font-size: 60px;
+      font-weight: 100;
+    }
+    @media only screen and (max-width: 767px) {
+      font-size: 46px;
+    }
+  }
+  & .sub-heading {
+    font-size: 26px;
+    color: $primary-color;
+    margin-bottom: 50px;
+    font-family: "Montserrat";
+    display: block;
+    @media only screen and (max-width: 767px) {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.newsletter input {
+  background: #fff;
+  padding: 0px 15px;
+  font-size: 16px;
+  height: 36px;
+  border: solid 2px #e6e6e6;
+  width: 280px;
+  @media only screen and (max-width: 767px) {
+    width: 210px;
+  }
+}
+
+.newsletter {
+  position: relative;
+  display: inline-block;
+}
+
+.newsletter .submit-btn {
+  position: absolute;
+  right: -5px;
+  background: #000;
+  border: 0;
+  width: 40px;
+  height: 100%;
+  border-radius: 4px;
+  background-color: $primary-color;
+  top: 0;
+  padding: 4px;
+}
+
+body #fp-nav.fp-right {
+  right: 40px;
+  @media only screen and (max-width: 1199px) {
+    right: 18px;
+  }
+}
+
+body #fp-nav.fp-right {
+  bottom: 50px;
+  top: auto;
+}
+
+div#fp-nav a.active {
+  width: 4px !important;
+  height: 48px !important;
+  background: #1565b3;
+}
+div#fp-nav a {
+  width: 4px !important;
+  height: 48px !important;
+  background: #393d4d;
+}
+
+div#fp-nav li {
+  background: transparent !important;
+  width: auto !important;
+  height: auto !important;
+  padding: 0;
+  margin: 8px 0 !important;
+}
+
+div#fp-nav a span {
+  background: transparent !important;
+}
+
+div#fp-nav li a .fp-sr-only {
+  display: none;
+  position: absolute;
+  width: auto !important;
+  height: auto !important;
+  visibility: visible !important;
+  clip: unset;
+  color: $niceBlue;
+  left: -30px;
+  font-weight: bold;
+  font-family: Montserrat;
+}
+.second-section .right-column p {
+  font-size: 16px;
+  font-weight: bold;
+}
+.counter {
+  font-weight: bold;
+}
+div#fp-nav li a.active .fp-sr-only {
+  display: block;
+}
+
+@media only screen and (max-width: 767px) {
+  body #fp-nav.fp-right {
+    margin: 0 !important;
+    bottom: 0;
+  }
+
+  body #fp-nav.fp-right ul li a {
+    height: 26px !important;
+  }
+}
+.loader {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  z-index: 9999999999999;
+  background: #222431;
+  .spinner {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+
+    margin: 100px auto;
+    -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+    animation: sk-rotateplane 1.2s infinite ease-in-out;
+  }
+
+  @-webkit-keyframes sk-rotateplane {
+    0% {
+      -webkit-transform: perspective(120px);
+    }
+    50% {
+      -webkit-transform: perspective(120px) rotateY(180deg);
+    }
+    100% {
+      -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg);
+    }
+  }
+
+  @keyframes sk-rotateplane {
+    0% {
+      transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+      -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    }
+    50% {
+      transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+      -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    }
+    100% {
+      transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+      -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    }
+  }
+}

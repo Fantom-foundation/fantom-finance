@@ -1,0 +1,39 @@
+.app-header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  @media only screen and (max-width: 1100px){
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  @media only screen and (max-width: 767px){
+    padding: 20px;
+    background: #222431;
+  }
+}
+.right-btn{
+  color: $primary-color;
+  cursor: pointer;
+  &:after {
+    display: block;
+    height: 2px;
+    margin: 5px 0;
+    background: #105efb;
+    background: -moz-linear-gradient(left, #105efb 0%, #199afb 100%);
+    background: -webkit-linear-gradient(left, #105efb 0%,#199afb 100%);
+    background: linear-gradient(to right, #105efb 0%,#199afb 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#105efb', endColorstr='#199afb',GradientType=1 );
+    content: "";
+  }
+}
+.logo{
+  max-width: 200px;
+  @media only screen and (max-width: 767px){
+    max-width: 130px;
+  }
+}

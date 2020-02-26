@@ -1,0 +1,28 @@
+$Primary-font: Oxygen !default;
+$Secondary-font: 'Montserrat', sans-serif;
+$md-font-family: '#{$Primary-font}', sans-serif !default;
+// Theme color
+
+$primary-color: #0688ff;
+$electricBlue: #105efb;
+$azure: #0688ff;
+$dark: #222431;
+$niceBlue: #0688ff;
+
+
+$h1: 80px !default;
+$h2: 48px !default;
+$h3: 31px !default;
+$h4: 21px !default;
+$h5: 16px !default;
+$h6: 14px !default;
+
+$base-font-size: 16px
+
+:root {
+  --primary-color: $primary-color;
+  --electricBlue: $electricBlue;
+  --azure: $azure;
+  --dark: $dark;
+  --niceBlue: $niceBlue;
+}
