@@ -2,7 +2,7 @@
 <p align="center">
   <a href="https://fantom.foundation/">
     <h1 align="center">
-       Fantom Foundation
+       Fantom Finance
     </h1>
   </a>
 </p>
@@ -64,13 +64,6 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
 4.  To edit content all the files avaliable in  src component folder
-
-5. To edit content or text goto folder intl folder
-     ```shell
-        en.json: for english version
-        ko.json: for korean version
-        zh.json: for chinese version
-      ```
 
 6. To Deploy : Configure aws https://linuxhint.com/install_aws_cli_ubuntu/ follow this link install awscli and configure
     
