@@ -6,7 +6,7 @@ const FirstSection = () => {
   const [checkEmail, setCheckEmail] = React.useState(false);
   const [successMessage, setSuccessMessage] = React.useState(false);
   const [errorMessage, setErrorMessage] = React.useState(false);
-  function setemail(e){
+  function setemail(e) {
     if (e === "") {
       setCheckEmail(true);
     } else {
@@ -14,21 +14,25 @@ const FirstSection = () => {
     }
     setEmail(e);
   }
-  function handleSubmit(e){
+  function handleSubmit(e) {
     e.preventDefault();
-    if(email == ''){
+    if (email == '') {
       setCheckEmail(true);
       return false
     }
-    addToMailchimp(email) 
-    .then(data => {
-      setErrorMessage('')
-      setSuccessMessage(data.msg)
-    })
-    .catch((error) => {
-      setSuccessMessage('')
-      setErrorMessage(error.msg)
-    })
+    addToMailchimp(email)
+      .then(data => {
+        setErrorMessage('');
+        let str = data.msg.toString();
+        let message = str.replace(/<[^>]*>/g, '');
+        let msg =message.split("Click here to update your profile").pop()
+        setSuccessMessage(msg);
+        setEmail('');
+      })
+      .catch((error) => {
+        setSuccessMessage('')
+        setErrorMessage(error.msg)
+      })
   }
   return (
     <section className="fifth-section" id="subscribe">
@@ -36,10 +40,10 @@ const FirstSection = () => {
         <h2>Coming soon</h2>
         <span className="sub-heading">Sign up for exclusive early access</span>
         <form>
-          <div className="newsletter"><input value={email} onChange={e => setemail(e.currentTarget.value)}  placeholder="Enter your email address" type="text" />
+          <div className="newsletter"><input value={email} onChange={e => setemail(e.currentTarget.value)} placeholder="Enter your email address" type="text" />
             <button className="submit-btn" type="submit" onClick={handleSubmit}><img alt="Submit" src={icon} /></button>
           </div>
-          <span className="error-message"> {checkEmail  ? '*Enter valid email' : ''} </span>
+          <span className="error-message"> {checkEmail ? '*Enter valid email' : ''} </span>
           <span className="successmessage"> {successMessage} </span>
           <span className="error-message"> {errorMessage} </span>
         </form>
