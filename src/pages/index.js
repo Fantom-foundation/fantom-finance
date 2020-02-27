@@ -21,7 +21,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Fantom Finance" />
       <main className="home-page">
         {isLoaded ? (
           <ReactFullpage

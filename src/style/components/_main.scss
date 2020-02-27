@@ -17,6 +17,11 @@ body {
   left: 0;
   width: 100%;
 }
+.first-section .btn {
+  @media only screen and (min-width: 991px) {
+    margin-bottom: 200px;
+  }
+}
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -289,4 +294,15 @@ div#fp-nav li a.active .fp-sr-only {
       -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
     }
   }
+}
+
+span.error-message {
+  display: block;
+  color: #ff0000;
+  padding-top: 10px;
+}
+.successmessage {
+  display: block;
+  color: green;
+  padding-top: 10px;
 }
