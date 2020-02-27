@@ -31,7 +31,7 @@ const FirstSection = () => {
     })
   }
   return (
-    <section className="fifth-section">
+    <section className="fifth-section" id="subscribe">
       <div className="container">
         <h2>Coming soon</h2>
         <span className="sub-heading">Sign up for exclusive early access</span>
