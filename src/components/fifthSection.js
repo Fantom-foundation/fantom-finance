@@ -25,8 +25,9 @@ const FirstSection = () => {
         setErrorMessage('');
         let str = data.msg.toString();
         let message = str.replace(/<[^>]*>/g, '');
+        let result = message.replace('Click here to update your profile','');
         //let msg =message.split("Click here to update your profile").pop()
-        setSuccessMessage(message);
+        setSuccessMessage(result);
         setEmail('');
       })
       .catch((error) => {

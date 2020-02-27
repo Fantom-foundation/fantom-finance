@@ -138,6 +138,9 @@ section.first-section {
     @media only screen and (max-width: 767px) {
       font-size: 46px;
     }
+    @media only screen and (max-width: 480px) {
+      font-size: 38px;
+    }
   }
   & .sub-heading {
     font-size: 26px;
@@ -147,6 +150,12 @@ section.first-section {
     display: block;
     @media only screen and (max-width: 767px) {
       margin-bottom: 30px;
+      font-size: 24px;
+    }
+  }
+  form {
+    @media only screen and (max-width: 480px) {
+      padding-bottom: 50px;
     }
   }
 }
