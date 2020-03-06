@@ -110,13 +110,6 @@ section.first-section {
   color: $primary-color;
 }
 
-.third-section,
-.fourth-section {
-  padding-top: 20vh;
-  @media only screen and (max-width: 480px) {
-    padding-top: 15vh;
-  }
-}
 
 .heighlited-heading {
   margin-bottom: 64px;
@@ -317,3 +310,86 @@ span.error-message {
   color: green;
   padding-top: 10px;
 }
+
+
+.text-scroll-section{
+  min-height: 30vh;
+  position: relative;
+  .heighlited-heading{
+    // position: absolute;
+    opacity: 0;
+  }
+}
+
+// .section.active {
+//   .third-section  {
+//     .heighlited-heading:nth-child(1){
+//       // animation:fade 8s  ease-in-out;
+//       animation-delay: 2s;
+//       opacity: 1;
+//       transition: all ease-in-out 0.4s;
+//     }
+//     .heighlited-heading:nth-child(2){
+//       // animation:fade2 8s  ease-in-out;
+//       animation-delay: 5s;
+//       opacity: 1;
+//       transition: all ease-in-out 0.4s;
+//     }
+//     .heighlited-heading:nth-child(3){
+//       // animation:fade3 8s  ease-in-out;
+//       animation-delay: 8s;
+//       opacity: 1;
+//       transition: all ease-in-out 0.4s;
+//     }
+//   }
+// }
+// @keyframes fade
+// {
+//   5%   {opacity:1}
+//   30% {
+//     opacity: 1;
+//   }
+//   35% {opacity: 0.2;}
+// }
+// @keyframes fade2
+// {
+//   35% {opacity: 0.2;}
+//   40% {opacity: 1;}
+//   60% {opacity: 1;}
+//   65% {opacity: 0.2;}
+// }
+// @keyframes fade3
+// {
+//   5%{opacity: 0.2;}
+//   65%{opacity: 0.2;}
+//   70%{opacity: 1;}
+//   90%{opacity: 1;}
+//   98%{opacity: 0.2;}
+// }
+
+// .section.active {
+//   .fourth-section  {
+//     .heighlited-heading:nth-child(1){
+//       animation:fourthFade1 5s infinite ease-in-out;
+//     }
+//     .heighlited-heading:nth-child(2){
+//       animation:fourthFade2 5s infinite ease-in-out;
+//     }
+//   }
+// }
+
+// @keyframes fourthFade1
+// {
+//   5%   {opacity:1}
+//   50% {
+//     opacity: 1;
+//   }
+//   55% {opacity: 0.2;}
+// }
+// @keyframes fourthFade2
+// {
+//   55% {opacity: 0.2;}
+//   60% {opacity: 1;}
+//   90% {opacity: 1;}
+//   95% {opacity: 0.2;}
+// }

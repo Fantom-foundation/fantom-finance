@@ -9,9 +9,13 @@ import FourthSection from "../components/fourthSection";
 import FifthSeciton from "../components/fifthSection";
 const { useState, useEffect } = React;
 const anchors = ["01", "02", "03", "04", "05"];
+
+
 const IndexPage = () => {
   const [isLoaded, setIsLoaded] = useState(false);
-
+  const [thirdSectionAnim, setThirdSectionAnim] = useState(1)
+  const [fourthSectionAnim, setFourthSectionAnim] = useState(1)
+  
   useEffect(() => {
     setTimeout(() => {
       setIsLoaded(true);
@@ -19,6 +23,7 @@ const IndexPage = () => {
   }, []);
 
 
+  console.log("thirdSectionAnim", thirdSectionAnim, "fourthSectionAnim", fourthSectionAnim)
   return (
     <Layout>
       <SEO title="Fantom Finance" />

@@ -17,7 +17,7 @@ const SecondSection = () => {
               Powered by Fantom, DeFi has never been faster and easier.</p>
           </div>
         </div>
-        <div className="countdown">
+        {/* <div className="countdown">
           <div className="counter">
             Tradable assets
             <CountUp
@@ -49,7 +49,7 @@ const SecondSection = () => {
             >
             </CountUp>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )
