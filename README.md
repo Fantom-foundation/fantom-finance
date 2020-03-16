@@ -65,14 +65,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 4.  To edit content all the files avaliable in  src component folder
 
-5. To edit content or text goto folder intl folder
-     ```shell
-        en.json: for english version
-        ko.json: for korean version
-        zh.json: for chinese version
-      ```
-
-6. To Deploy : Configure aws https://linuxhint.com/install_aws_cli_ubuntu/ follow this link install awscli and configure
+5. To Deploy : Configure aws https://linuxhint.com/install_aws_cli_ubuntu/ follow this link install awscli and configure
     
      ```shell
     aws configure
@@ -82,7 +75,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     Default output format [json]: json
 
     ```
-7. Deploy to server: 
+6. Deploy to server: 
 
     ```shell
     npm run deploy:dev
