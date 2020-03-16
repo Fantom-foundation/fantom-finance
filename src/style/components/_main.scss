@@ -6,6 +6,7 @@ body {
   background: $dark;
   color: #fff;
   min-height: 100vh;
+  
 }
 .section {
   height: 100vh;
@@ -75,7 +76,7 @@ section.first-section {
       font-size: 37px;
     }
     @media only screen and (max-width: 480px) {
-      font-size: 32px;
+      font-size: 30px;
     }
   }
 }
@@ -393,3 +394,10 @@ span.error-message {
 //   90% {opacity: 1;}
 //   95% {opacity: 0.2;}
 // }
+@media only screen and (max-width: 767px) {
+  .third-section, .fourth-section{
+    padding-top: 120px;
+    padding-bottom: 100px;
+  }
+
+}

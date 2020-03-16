@@ -11,7 +11,11 @@
 /build
 
 # production
-/.cache
+/public
+
+
+# production
+/.cache 
 
 
 # misc
